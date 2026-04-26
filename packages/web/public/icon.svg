@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="mechoLogoTitle">
-  <title id="mechoLogoTitle">Mecho logo</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="mechoIconTitle">
+  <title id="mechoIconTitle">Mecho icon</title>
   <rect width="512" height="512" rx="136" fill="#F4F8F4" />
   <path
     d="M136 360V172l120 116 120-116v184"

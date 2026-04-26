@@ -35,7 +35,7 @@ export function ErrorPage({ error }: { error: Error }) {
                 <Link
                   key="github"
                   href={newGithubIssueUrl({
-                    repoUrl: "https://github.com/meshtastic/web",
+                    repoUrl: "https://github.com/BH4ME/web",
                     template: "bug.yml",
                     title: "[Bug]: An unhandled error occurred. <Add details here>",
                     logs: error?.stack,
@@ -54,7 +54,7 @@ export function ErrorPage({ error }: { error: Error }) {
         </div>
 
         <div className="hidden md:block md:max-w-64 lg:max-w-80 w-full aspect-suqare">
-          <img src="/chirpy.svg" alt="Chirpy the Meshtastic error" className="max-w-full h-auto" />
+          <img src="/chirpy.svg" alt="Chirpy the Mecho error" className="max-w-full h-auto" />
         </div>
       </section>
       <details className="mt-8 px-4 md:px-8 text-lg md:text-xl space-y-2 text-md whitespace-pre-wrap break-all">

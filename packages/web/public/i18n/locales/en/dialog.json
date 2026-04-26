@@ -4,9 +4,9 @@
     "title": "Clear All Messages"
   },
   "import": {
-    "description": "Import a Channel Set from a Meshtastic URL. <br />Valid Meshtasic URLs start with \"<italic>https://meshtastic.org/e/...</italic>\"",
+    "description": "Import a Channel Set from a Mecho URL. <br />Valid URLs start with \"<italic>/e/...</italic>\"",
     "error": {
-      "invalidUrl": "Invalid Meshtastic URL"
+      "invalidUrl": "Invalid Mecho URL"
     },
     "channelPrefix": "Channel ",
     "primary": "Primary ",
@@ -53,7 +53,7 @@
       "selectDevice": "Select device",
       "selected": "Bluetooth device selected",
       "notSelected": "No device selected",
-      "helperText": "Uses the Meshtastic Bluetooth service for discovery."
+      "helperText": "Uses the Mecho Bluetooth service for discovery."
     },
     "serialConnection": {
       "namePlaceholder": "My Serial Node",
@@ -76,7 +76,7 @@
     },
     "httpConnection": {
       "namePlaceholder": "My HTTP Node",
-      "inputPlaceholder": "192.168.1.10 or meshtastic.local",
+      "inputPlaceholder": "192.168.1.10 or mecho.local",
       "heading": "URL or IP",
       "useHttps": "Use HTTPS",
       "invalidUrl": {
@@ -137,7 +137,7 @@
     "header": "=== MESHTASTIC KEYS FOR {{longName}} ({{shortName}}) ===",
     "privateKey": "Private Key:",
     "publicKey": "Public Key:",
-    "fileName": "meshtastic_keys_{{longName}}_{{shortName}}.txt",
+    "fileName": "mecho_keys_{{longName}}_{{shortName}}.txt",
     "title": "Backup Keys"
   },
   "pkiBackupReminder": {

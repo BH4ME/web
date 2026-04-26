@@ -4,7 +4,7 @@ import Backend from "i18next-http-backend";
 import { initReactI18next } from "react-i18next";
 
 export type Lang = {
-  code: Intl.Locale["language"];
+  code: string;
   name: string;
   flag: string;
   region?: Intl.Locale["region"];
@@ -17,6 +17,7 @@ export const supportedLanguages: Lang[] = [
   { code: "de", name: "Deutsch", flag: "🇩🇪" },
   { code: "en", name: "English", flag: "🇺🇸" },
   { code: "fr", name: "Français", flag: "🇫🇷" },
+  { code: "zh-CN", name: "简体中文", flag: "🇨🇳", region: "CN" },
   { code: "ru", name: "Русский", flag: "🇷🇺" },
   { code: "sv", name: "Svenska", flag: "🇸🇪" },
 ];
@@ -44,6 +45,7 @@ i18next
       default: [FALLBACK_LANGUAGE_CODE],
       fi: ["fi-FI", FALLBACK_LANGUAGE_CODE],
       fr: ["fr-FR", FALLBACK_LANGUAGE_CODE],
+      "zh-CN": [FALLBACK_LANGUAGE_CODE],
       ru: ["ru-RU", FALLBACK_LANGUAGE_CODE],
       sv: ["sv-SE", FALLBACK_LANGUAGE_CODE],
       de: ["de-DE", FALLBACK_LANGUAGE_CODE],

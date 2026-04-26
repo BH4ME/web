@@ -5,7 +5,7 @@ function createDefaultUser(num: number): Protobuf.Mesh.User {
   const userIdHex = num.toString(16).toUpperCase().padStart(2, "0");
   const userId = `!${userIdHex}`;
   const last4 = userIdHex.slice(-4);
-  const longName = `Meshtastic ${last4}`;
+  const longName = `Mecho ${last4}`;
   const shortName = last4;
 
   return create(Protobuf.Mesh.UserSchema, {

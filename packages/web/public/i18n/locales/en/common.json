@@ -34,8 +34,8 @@
     "submit": "Submit"
   },
   "app": {
-    "title": "Meshtastic",
-    "fullTitle": "Meshtastic Web Client"
+    "title": "Mecho",
+    "fullTitle": "Mecho Web Client"
   },
   "loading": "Loading...",
   "unit": {
@@ -91,7 +91,7 @@
   },
   "nodeUnknownPrefix": "!",
   "unset": "UNSET",
-  "fallbackName": "Meshtastic {{last4}}",
+  "fallbackName": "Mecho {{last4}}",
   "node": "Node",
   "formValidation": {
     "unsavedChanges": "Unsaved changes",

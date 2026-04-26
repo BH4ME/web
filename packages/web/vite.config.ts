@@ -43,7 +43,7 @@ export default defineConfig(({ mode }) => {
       createHtmlPlugin({
         inject: {
           data: {
-            title: isTest ? "Meshtastic Web (TEST)" : "Meshtastic Web",
+            title: isTest ? "Mecho Web (TEST)" : "Mecho Web",
             cookieYesScript:
               isProd && env.VITE_COOKIEYES_CLIENT_ID
                 ? // This is for GDPR/CCPA compliance

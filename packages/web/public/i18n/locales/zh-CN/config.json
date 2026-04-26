@@ -452,7 +452,7 @@
     },
     "isLicensed": {
       "label": "业余无线电模式（HAM）",
-      "description": "Enable if you are a licensed amateur radio operator, enabling this option disables encryption and is not compatible with the default Meshtastic network."
+      "description": "如果你是持证业余无线电操作员，请启用此项。启用后会禁用加密，并且与默认的 Mecho 网络不兼容。"
     }
   }
 }

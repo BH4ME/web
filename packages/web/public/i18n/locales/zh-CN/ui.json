@@ -12,8 +12,8 @@
     "nodes": "节点"
   },
   "app": {
-    "title": "Meshtastic",
-    "logo": "Meshtastic Logo"
+    "title": "Mecho",
+    "logo": "Mecho Logo"
   },
   "sidebar": {
     "collapseToggle": {
@@ -146,7 +146,7 @@
   },
   "nodeName": {
     "label": "Node name/number",
-    "placeholder": "Meshtastic 1234"
+    "placeholder": "Mecho 1234"
   },
   "airtimeUtilization": {
     "label": "Airtime Utilization (%)",
@@ -195,9 +195,9 @@
   "showUnheard": {
     "label": "Never heard"
   },
-  "language": {
+  "languagePicker": {
     "label": "语言",
-    "changeLanguage": "Change Language"
+    "changeLanguage": "切换语言"
   },
   "theme": {
     "dark": "深色",
@@ -224,7 +224,7 @@
     "fallbackError": "{{error}}"
   },
   "footer": {
-    "text": "Powered by <0>▲ Vercel</0> | Meshtastic® is a registered trademark of Meshtastic LLC. | <1>Legal Information</1>",
+    "text": "由 <0>▲ Vercel</0> 提供支持 | Mecho 是 Mecho LLC 的注册商标。| <1>法律信息</1>",
     "commitSha": "Commit SHA: {{sha}}"
   }
 }
