@@ -37,6 +37,9 @@ export function App() {
           className="flex h-screen flex-col bg-background-primary text-text-primary"
           style={{ scrollbarWidth: "thin" }}
         >
+          <div className="site-watermark" aria-hidden="true">
+            SZU
+          </div>
           <SidebarProvider>
             <div className="h-full flex flex-1 flex-col">
               {device ? (

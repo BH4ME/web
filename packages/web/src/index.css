@@ -113,6 +113,27 @@ body {
 
 }
 
+.site-watermark {
+  position: fixed;
+  right: clamp(1.5rem, 6vw, 5rem);
+  bottom: clamp(4.25rem, 9vw, 7rem);
+  z-index: 1;
+  pointer-events: none;
+  user-select: none;
+  color: color-mix(in srgb, var(--textPrimary) 16%, transparent);
+  font-size: clamp(4.5rem, 16vw, 14rem);
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0.18em;
+  opacity: 0.22;
+  transform: rotate(-12deg);
+}
+
+[data-theme="dark"] .site-watermark {
+  color: color-mix(in srgb, var(--textPrimary) 24%, transparent);
+  opacity: 0.2;
+}
+
 
 @layer base {
 
